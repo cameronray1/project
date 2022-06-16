@@ -1,10 +1,32 @@
 # Raspberry Pi 4 Facial Recognition
-Full Tutorial posted - https://www.tomshardware.com/how-to/raspberry-pi-facial-recognition
 
-![RaspberryPi Facial Rec](https://github.com/carolinedunn/facial_recognition/blob/main/photo/screenshot.png)
 
 Materials: Raspberry Pi 4 and Webcam
 
-![RaspberryPi Facial Rec](https://github.com/carolinedunn/facial_recognition/blob/main/photo/webcamandRPi4.JPG)
 
-Full Tutorial posted - https://www.tomshardware.com/how-to/raspberry-pi-facial-recognition
+Install Dependencies:
+OpenCV
+Imutils
+
+
+Training the rasberry pi:
+Copy the code for Facial Recognition
+
+Create a new folder in "dataset"
+
+Add photos of the person that you want the rasberry pi to recognitize and label the folder that persons name
+
+Now, in the facial recognition folder, change headshots.py with the name
+
+Using the camera and keyboard take photos of your face at multiple different angle (at least 10 photos)
+
+In a new terminal type:
+cd facial_recognition
+
+Run the command to train the model:
+python train_model.py
+
+To test, type:
+python facial_req.py
+
+
