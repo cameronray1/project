@@ -1,12 +1,14 @@
 # Raspberry Pi 4 Facial Recognition
 
 
-Materials: Raspberry Pi 4 and Webcam
+Materials: 
+-Raspberry Pi 4  
+-Webcam
 
 
 Install Dependencies:
-OpenCV
-Imutils
+-OpenCV
+-Imutils
 
 Once Opencv and the necessary facial recognition files are downloaded:
 
