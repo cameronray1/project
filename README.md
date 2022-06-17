@@ -2,13 +2,18 @@
 
 
 Materials: 
--Raspberry Pi 4  
--Webcam
+
+   + Raspberry Pi 4 
+   + Webcam
+
 
 
 Install Dependencies:
--OpenCV
--Imutils
+
+   
+   + OpenCV
+   + Mutils
+   
 
 Once Opencv and the necessary facial recognition files are downloaded:
 
@@ -20,7 +25,7 @@ Once Opencv and the necessary facial recognition files are downloaded:
 
 4. In a new terminal type:
 cd facial_recognition
--This is done in order to access the facial_recognition folder that contains all of the respective files and code
+    -This is done in order to access the facial_recognition folder that contains all of the respective files and code
 
 5. Training the raspberry pi is necessary using the 10 photos
     - using the code "python train_model.py" which is a line of code that accesses the file within the facial_recognition folder
